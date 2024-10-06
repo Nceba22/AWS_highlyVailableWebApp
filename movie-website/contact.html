@@ -1,0 +1,170 @@
+<!--
+Filename:			contact.html
+Developer:			Nceba Matandabuzo
+Last Modified:		19/12/2022
+Operating System:	Windows 10
+Software:			Dreamweaver
+Description:		How to get hold of online movie store.
+ -->
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Contact us</title>
+<style type="text/css">
+<!--
+body {
+	margin-left: 12px;
+	margin-top: 10px;
+	background-color: #99CCFF;
+}
+body,td,th {
+	color: #333333;
+}
+.style2 {font-size: 12; }
+#userForm {
+	background-color: #99CCFF;
+	background-position: center;
+}
+#userForm #form1 #contactUs #sprytextfield2 label {
+}
+.style3 {color: #990099}
+.style4 {color: #990066}
+.footer {
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+.style5 {color: #99FFFF}
+-->
+</style>
+</head>
+
+<body>
+<p>&nbsp;</p>
+<div align="right" id="Layer2">
+  <table width="414" border="1">
+    <tr align="center" valign="top" bgcolor="#3300FF">
+      <th width="98" height="5" valign="bottom" nowrap="nowrap" bgcolor="#CCCCFF"><div align="right" class="style2">
+        <div align="center"><a href="index.html">Home</a></div>
+      </div></th>
+      <th width="90" height="5" nowrap="nowrap" bgcolor="#CCCCFF"><span class="style2"><a href="gallary.html">Gallary</a></span></th>
+      <th width="93" height="5" nowrap="nowrap" bgcolor="#CCCCFF"><span class="style2"><a href="about.html">About</a></span></th>
+      <th width="105" height="5" nowrap="nowrap" bgcolor="#CCCCFF"><span class="style2"><a href="contact.html">Contact Us</a></span></th>
+    </tr>
+  </table>
+</div>
+<p>&nbsp;</p>
+<h1>
+  <div class="style5"><marquee>Welcome to Onlone Movie Store</marquee></div>
+</h1>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div class = "formContent">
+
+<div id="userForm">
+<h1>Contact Us</h1>
+
+<p>We always welcome customer feedback and comment or quries. Below you will find form that cannot help you to get in touch with us and express your view. </p>
+ <fieldset>
+ 
+<form id="form1" name="form1" method="post" action="mailto:ncebam@cti.ac.za">
+<table id ="contactUs">
+<tr>
+<tr>
+	<td>
+		<span id="sprytextfield2">
+		<label for="FirstName">First Name</label>
+		<input type="text" name="FistName" id="FirstName"/>
+		<span class="textfieldRequiredMsg style4">*</span>		</span>
+	</td>
+</tr>
+<tr>
+	<td>
+		<span id="sprytextfield2">
+			<label for="LastName">Last Name</label>
+			<input type="text" name="LastName" id="LastName"/>
+			<span class="textfieldRequiredMsg style3">*</span>		  </span>
+	  </tr>
+		<tr>
+	    <td>
+		    <span id="sprytextfield1">
+			<label for="email">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="text" name="email" id="email"/>
+		    </span>								
+			<span class="textfieldRequiredMsg style4">*</span>			</td>
+		</tr>
+		<tr>
+		  <td>
+		    <span id="spryradio1">
+			<label>Topic</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	<label>
+			<input type="radio" name="rbgTopic" value="query" id="rbgTopic_0"/>Query</label>
+			<label>
+			<input type="radio" name="rbgTopic" value="comment" id="rbgTopic_1"/>Comment</label>
+			<label>
+			<input type="radio" name="rbgTopic" value="feedback" id="rbgTopic_2"/>Feedback</label>
+		    </span></td>
+	</tr>
+	
+	<tr>
+	<td valign="top">
+	<span id="sprytextarea1">
+	<label for="txtMessage">Message</label>&nbsp;&nbsp;
+	<textarea name="txtMessage" id="txtMessage" cols="41" rows="5"></textarea>
+	</span>								</td>
+	</tr>					
+	<tr align="center">
+	<td>
+		<input name="clear" type="reset" id="clear" value="Reset"/>
+		&nbsp; &nbsp; &nbsp; 
+		<input name="Submit" type="submit" value="Submit"/></td>
+		</tr>
+  </table>							
+</form>
+
+</fieldset>
+</div>
+</div>
+<p>&nbsp;</p>
+<!-- end .content -->
+			<!-- this script is to create variables to store and validate the 
+				information from the form input fields -->
+			<script type="text/javascript">
+				var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1", "email");
+				var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2");
+				var spryradio1 = new Spry.Widget.ValidationRadio("spryradio1");				
+				var sprytextarea1 = new Spry.Widget.ValidationTextarea("sprytextarea1");
+			</script>
+
+<p>&nbsp;</p>
+<h4>Alternative you can contact us on the following details:</h4>
+<ul>
+<p>website:  www.onlinemoviestore.com</p></ul>
+<ul> <p>email:    info@onlinemoviestore.com</p></ul>
+<ul><p>phone no:   +27 11 0427130 </p></ul>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div class="footer" style="text-align:center">	
+<h5> &copy;2016 onlinemoviestore.com</h5>
+</div>
+</body>
+</html>
